@@ -18,7 +18,7 @@ const CourseCard = ({cardData, currentCard, setCurrentCard}) => {
 
         <div className = {`flex justify-between ${currentCard === cardData.heading ? "text-blue-300" : "text-richblack-300" } px-6 py-3 font-medium`} >  
           <p className="flex items-center gap-2 text-[16px]">  <HiUsers /> {cardData.level} </p>           {/* Level :- Beginner*/}
-          <p className="flex items-center gap-2 text-[16px]"> <ImTree /> {cardData.lessionNumber} Lession </p>       {/* Flow Chart :- 6 Lession*/}
+          <p className="flex items-center gap-2 text-[16px]"> <ImTree /> {cardData.lessonNumber} Lesson </p>       {/* Flow Chart :- 6 Lession*/}
         </div>
 
     </div>
