@@ -49,7 +49,7 @@ const EnrolledCourses = () => {
                    <img src={course.thumbnail} alt="" className="h-14 w-14 rounded-lg object-cover"/>
                    <div className="flex max-w-xs flex-col gap-2">
                       <p className="font-semibold">{course.courseName}</p>
-                      <p className="text-xs text-richblack-300"> {course.courseDescription.length > 50 ?
+                      <p className="text-xs"> {course.courseDescription.length > 50 ?
                        `${course.courseDescription.slice(0, 50)}...` : course.courseDescription}  </p>
                    </div>
                 </div>
